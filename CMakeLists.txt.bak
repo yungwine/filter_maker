@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.21)
+project(project)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(project
+        main.cpp
+        command_line_parser.cpp
+        command_line_parser.h
+        base_filter.cpp
+        base_filter.h
+        filter_pipeline_maker.cpp
+        filter_pipeline_maker.h
+        application.cpp
+        application.h
+        bitmap.cpp bitmap.h)
